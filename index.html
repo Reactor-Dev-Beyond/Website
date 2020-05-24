@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<!-- TODO: #17 Alt text for each image -->
 
 <head>
     <meta charset="utf-8">
@@ -21,9 +20,7 @@
     <!-- TODO: #19 #18 Change to whatever custom domain is used later -->
     <link rel="canonical" href="https://reactor-dev-beyond.github.io/Website/">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900">
+
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -44,7 +41,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets\Favicons\ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
+    <link rel="stylesheet" href="tanay.css">
     <!-- CSS only
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
@@ -65,26 +62,27 @@
             <a class="navbar-brand" href="index.html" style="max-width: 280px;"><img src="assets/img/Navbar%20logo.png" style="max-width: 100%;"></a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto  nav-pills">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#header" style="color: #3e3563;font-family: Poppins, sans-serif;font-size: 20px;font-weight: 400;">Home</a>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#header" style="font-family: Poppins, sans-serif;font-size: 20px;font-weight: 400;">Home</a>
                     </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#reactor" style="color: #3e3563;font-size: 20px;font-family: Poppins, sans-serif;font-weight: 400;">Reactor
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#reactor" style="font-size: 20px;font-family: Poppins, sans-serif;font-weight: 400;">Reactor
                             Programme</a>
                     </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#what" style="color: #3e3563;font-family: Poppins, sans-serif;font-size: 20px;font-weight: 400;">What
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#what" style="font-family: Poppins, sans-serif;font-size: 20px;font-weight: 400;">What
                             is it??</a>
                     </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#schedule" style="color: #3e3563;font-family: Poppins, sans-serif;font-size: 20px;font-weight: 400;">Schedule
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#schedule" style="font-family: Poppins, sans-serif;font-size: 20px;font-weight: 400;">Schedule
                             </a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="" style="color: #3e3563;font-family: Poppins, sans-serif;font-size: 20px;font-weight: 400;">About
-                    </a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#about" style="font-family: Poppins, sans-serif;font-size: 20px;font-weight: 400;">About us
+    </a></li>
+
                 </ul>
             </div>
         </div>
     </nav>
 
 
-    <header class="masthead" style="color: #212529;">
-        <div class="container" id="header">
+    <header class="masthead" style="color: #212529;" id="header">
+        <div class="container">
             <div class="overlay" style="/*background-color: #212529;*/height: 100%;"></div>
             <div class="row text-nowrap" style="max-height: 800px;padding-top: 70px;padding-bottom: 80px;">
                 <div class="col-sm-6 col-md-6 col-lg-6 col-xl-5 mx-auto" style="margin-top: 50px;padding-right: 15px;padding-left: 15px;"><img src="assets/img/beyond.png" style="width: 100%;padding-top: 15%;"><img class="float-left" src="assets/img/hackt.png" style="width: 95%;margin-top: 35px;"><button class="btn btn-primary float-left" onclick="window.location = 'https://www.meetup.com/Microsoft-Reactor-Bangalore/'"
@@ -94,8 +92,8 @@
             </div>
         </div>
     </header>
-    <section>
-        <div class="container" style="padding-top: 15px;" id="reactor">
+    <section id="reactor">
+        <div class="container" style="padding-top: 15px;">
             <h2 class="text-center" style="font-family: Poppins, sans-serif;font-size: 35px;color: #3e3563;margin-bottom: 30px;font-weight: 600;font-style: normal;">
                 What is Microsoft Reactor ?<br></h2>
             <hr>
@@ -195,7 +193,7 @@
         </div>
     </section>
 
-    <footer id="footerpad" style="background-color: #3e3563;">
+    <footer id="footerpad" style="background-color: #3e3563;" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-8 mx-auto">
@@ -219,9 +217,9 @@
         </div>
     </footer>
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/clean-blog.js"></script>
+    <script src="tanay.js"></script>
+
+
 </body>
 
 </html>
