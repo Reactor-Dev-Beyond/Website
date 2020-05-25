@@ -2,7 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     background-color: white;
@@ -10,7 +9,7 @@ html {
 
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
+.nav-link.hover .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
     color: #f06955;
     text-decoration-line: underline;
