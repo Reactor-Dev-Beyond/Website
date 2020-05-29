@@ -1,279 +1,662 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <title>Dev & Beyond</title>
-    <meta property="og:title" content="Dev & Beyond">
-    <meta property="og:site_name" content="Dev & Beyond">
-    <meta property="og:url" content="https://reactor-dev-beyond.github.io/Website/">
-    <meta property="og:description" content="By Developers, Beyond Developing. Having the Hackers mindset">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="assets\img\D&B.png">
+    <meta property="og:title" content="Dev & Beyond" />
+    <meta property="og:site_name" content="Dev & Beyond" />
+    <meta
+      property="og:url"
+      content="https://reactor-dev-beyond.github.io/Website/"
+    />
+    <meta
+      property="og:description"
+      content="By Developers, Beyond Developing. Having the Hackers mindset"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets\img\D&B.png" />
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@MSFTReactorBlr">
-    <meta name="twitter:title" content="Dev & Beyond">
-    <meta name="twitter:description" content="By Developers, Beyond Developing. Having the Hackers mindset">
-    <meta name="twitter:image" content="assets\img\D&B.png">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@MSFTReactorBlr" />
+    <meta name="twitter:title" content="Dev & Beyond" />
+    <meta
+      name="twitter:description"
+      content="By Developers, Beyond Developing. Having the Hackers mindset"
+    />
+    <meta name="twitter:image" content="assets\img\D&B.png" />
     <!-- TODO: #19 #18 Change to whatever custom domain is used later -->
-    <link rel="canonical" href="https://reactor-dev-beyond.github.io/Website/">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
-    <link rel="stylesheet" href="addition.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="apple-touch-icon" sizes="57x57" href="assets\Favicons\apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets\Favicons\apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets\Favicons\apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets\Favicons\apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets\Favicons\apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets\Favicons\apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets\Favicons\apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets\Favicons\apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets\Favicons\apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets\Favicons\android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets\Favicons\favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets\Favicons\favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets\Favicons\favicon-16x16.png">
-    <link rel="manifest" href="assets\Favicons\manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets\Favicons\ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="canonical"
+      href="https://reactor-dev-beyond.github.io/Website/"
+    />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/Footer-with-social-media-icons.css"
+    />
+    <link rel="stylesheet" href="assets/css/addition.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="assets\Favicons\apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="assets\Favicons\apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets\Favicons\apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets\Favicons\apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets\Favicons\apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets\Favicons\apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets\Favicons\apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets\Favicons\apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets\Favicons\apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets\Favicons\android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets\Favicons\favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets\Favicons\favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets\Favicons\favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets\Favicons\manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="assets\Favicons\ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="tanay.js">
-    </script>
+    <script src="assets/js/tanay.js"></script>
 
+    <link rel="stylesheet" href="assets/css/tanay.css" />
+  </head>
 
-
-    <link rel="stylesheet" href="tanay.css">
-</head>
-
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar-example2" style="background-color:#FFFDFB ;">
-        <div class="container">
-            <a class="navbar-brand" href="index.html" style="max-width: 280px;"><img src="assets/img/Navbar%20logo.png" style="max-width: 100%;"></a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto  nav-pills">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#header" style="font-family: Poppins, sans-serif;font-size: 20px;font-weight: 400;">Home</a>
-                    </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#reactor" style="font-size: 20px;font-family: Poppins, sans-serif;font-weight: 400;">Reactor
-                            Programme</a>
-                    </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#what" style="font-family: Poppins, sans-serif;font-size: 20px;font-weight: 400;">What
-                            is it??</a>
-                    </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#schedule" style="font-family: Poppins, sans-serif;font-size: 20px;font-weight: 400;">Schedule
-                            </a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#about" style="font-family: Poppins, sans-serif;font-size: 20px;font-weight: 400;">About us
-    </a></li>
-
-                </ul>
-            </div>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav
+      class="navbar navbar-light navbar-expand-lg fixed-top"
+      id="navbar-example2"
+      style="background-color: #fffdfb;"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html" style="max-width: 280px;"
+          ><img
+            src="assets/img/Navbar%20logo.png"
+            style="max-width: 100%;" /></a
+        ><button
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          class="navbar-toggler"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="nav navbar-nav ml-auto nav-pills">
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                href="#header"
+                style="
+                  font-family: Poppins, sans-serif;
+                  font-size: 20px;
+                  font-weight: 400;
+                "
+                >Home</a
+              >
+            </li>
+            <!-- <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                href="#reactor"
+                style="
+                  font-size: 20px;
+                  font-family: Poppins, sans-serif;
+                  font-weight: 400;
+                "
+                >Reactor Programme</a
+              >
+            </li> -->
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                href="#what"
+                style="
+                  font-family: Poppins, sans-serif;
+                  font-size: 20px;
+                  font-weight: 400;
+                "
+                >What's Inside?</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                href="#schedule"
+                style="
+                  font-family: Poppins, sans-serif;
+                  font-size: 20px;
+                  font-weight: 400;
+                "
+                >Schedule
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                href="#about"
+                style="
+                  font-family: Poppins, sans-serif;
+                  font-size: 20px;
+                  font-weight: 400;
+                "
+                >The Team
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-
     <header class="masthead" style="color: #212529;" id="header">
-        <div class="container">
-            <div class="overlay" style="/*background-color: #212529;*/height: 100%;"></div>
-            <div class="row text-nowrap" style="max-height: 800px;padding-top: 70px;padding-bottom: 80px;">
-                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-5 mx-auto" style="margin-top: 50px;padding-right: 15px;padding-left: 15px;"><img src="assets/img/Development, Beyond Coding.png" style="width: 100%;padding-top: 15%;"><img class="float-left" src="assets/img/hackt.png" style="width: 95%;margin-top: 35px;"><button class="btn btn-primary float-left" onclick="window.location = 'https://www.meetup.com/Microsoft-Reactor-Bangalore/'"
-                        type="button" style="background-color: #3e3563;border-color: #3e3563 !important;margin-top: 50px;font-family: Poppins, sans-serif;font-size: 18px;font-weight: 400;box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);">Join
-                        our meet-up page</button></div>
-                <div class="col-auto col-sm-6 col-md-6 col-lg-6 col-xl-7 text-nowrap" style="height: 100%;margin-top: 50px;"><img src="assets/img/Group%2024.png" style="max-width: 100%;padding-left: 30px;"></div>
-            </div>
+      <div class="container">
+        <div
+          class="overlay"
+          style="/*background-color: #212529;*/ height: 100%;"
+        ></div>
+        <div
+          class="row text-nowrap"
+          style="max-height: 800px; padding-top: 70px; padding-bottom: 80px;"
+        >
+          <div
+            class="col-sm-6 col-md-6 col-lg-6 col-xl-5 mx-auto"
+            style="margin-top: 50px; padding-right: 15px; padding-left: 15px;"
+          >
+            <img
+              src="assets/img/Development, Beyond Coding.png"
+              style="width: 100%; padding-top: 15%;"
+            /><img
+              class="float-left"
+              src="assets/img/everything.png"
+              style="width: 95%; margin-top: 35px;"
+            /><button
+              class="btn btn-primary float-left"
+              onclick="window.location = 'https://www.meetup.com/Microsoft-Reactor-Bangalore/'"
+              type="button"
+              style="
+                background-color: #3e3563;
+                border-color: #3e3563 !important;
+                margin-top: 50px;
+                font-family: Poppins, sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+              "
+            >
+              Join our meet-up page
+            </button>
+          </div>
+          <div
+            class="col-auto col-sm-6 col-md-6 col-lg-6 col-xl-7 text-nowrap"
+            style="height: 100%; margin-top: 50px;"
+          >
+            <img
+              src="assets/img/Group%2024.png"
+              style="max-width: 100%; padding-left: 30px;"
+            />
+          </div>
         </div>
+      </div>
     </header>
-    <section id="reactor">
-        <div class="container" style="padding-top: 15px;">
-            <h2 class="text-center" style="font-family: Poppins, sans-serif;font-size: 35px;color: #3e3563;margin-bottom: 30px;font-weight: 600;font-style: normal;">
-                What is Microsoft Reactor ?<br></h2>
-            <hr>
 
+    
+    <!-- <section id="reactor">
+      <div class="container" style="padding-top: 15px;">
+        <h2
+          class="text-center"
+          style="
+            font-family: Poppins, sans-serif;
+            font-size: 35px;
+            color: #3e3563;
+            margin-bottom: 30px;
+            font-weight: 600;
+            font-style: normal;
+          "
+        >
+          What is Microsoft Reactor ?<br />
+        </h2>
 
-            <div class="row" style="padding-top: 35px;">
-                <div class="col-md-4 col-lg-4 col-xl-3 offset-xl-1">
-                    <div class="row">
-                        <div class="col"><img src="assets/img/Group%2021.png" style="max-width: 100%;"></div>
-                    </div>
-                    <div class="row" style="margin-top: 12px;">
-                        <div class="col">
-                            <h4 class="text-center" style="color: #3e3563;font-family: Poppins, sans-serif;">Learn</h4>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-center d-xl-flex" style="font-family: Poppins, sans-serif;font-weight: 400;color: #3e3563;margin-top: 0px;">
-                                Learn directly from the professionals.<br></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-xl-3 offset-xl-1">
-                    <div class="row">
-                        <div class="col"><img src="assets/img/Group%2022.png" style="max-width: 100%;padding-top: 12px;padding-bottom: 7px;"></div>
-                    </div>
-                    <div class="row" style="margin-top: 12px;">
-                        <div class="col">
-                            <h4 class="text-center" style="color: #3e3563;font-family: Poppins, sans-serif;">Connect
-                            </h4>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-center d-xl-flex align-items-xl-start" style="color: #3e3563;font-family: Poppins, sans-serif;font-weight: 400;margin-top: 0px;">
-                                Lorem ipsum dolor sit amet, consectetur.<br></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-xl-3 offset-xl-1">
-                    <div class="row">
-                        <div class="col" style="padding-left: 0px;padding-right: 0px;"><img src="assets/img/Group%2023.png" style="max-width: 100%;padding-top: 20px;padding-bottom: 35px;"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col" style="margin-top: 12px;">
-                            <h4 class="text-center" style="color: #3e3563;font-family: Poppins, sans-serif;">Build</h4>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-center d-xl-flex align-items-xl-start" style="color: #3e3563;font-family: Poppins, sans-serif;font-weight: 400;margin-top: 0px;">
-                                Lorem ipsum dolor sit amet, consectetur.<br></p>
-                        </div>
-                    </div>
-                </div>
-            </div><br><br>
-        </div>
-    </section>
-    <section style="background-color: #fefcf8;padding-top: 60px;" id="what">
-        <div class="container overlay2">
-            <h2 class="text-center" style="font-family: Poppins, sans-serif;font-size: 35px;color: #3e3563;margin-bottom: 30px;font-weight: 600;font-style: normal;">
-                What is Dev &amp; Beyond ?<br></h2>
-            <hr style="width: 400px;">
+        <hr/>
 
+        <div class="row" style="padding-top: 35px;">
+          <div class="col-md-4 col-lg-4 col-xl-3 offset-xl-1">
             <div class="row">
-                <div class="col-xl-5" style="margin-top: 15px;"><img src="assets/img/Group%2020.png" style="max-width: 100%;padding: 35px;"></div>
-                <div class="col d-xl-flex align-items-xl-center" style="color: #3e3563;">
-                    <p class="text-justify" style="font-family: Poppins, sans-serif;font-size: 22px;color: rgb(62,53,99);font-weight: 400;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br></p>
-                </div>
+              <div class="col">
+                <img src="assets/img/Group%2021.png" style="max-width: 100%;" />
+              </div>
+            </div>
+            <div class="row" style="margin-top: 12px;">
+              <div class="col">
+                <h4
+                  class="text-center"
+                  style="color: #3e3563; font-family: Poppins, sans-serif;"
+                >
+                  Learn
+                </h4>
+              </div>
             </div>
             <div class="row">
-                <div class="col d-xl-flex align-items-xl-center" style="color: #3e3563;">
-                    <p class="text-justify" style="font-family: Poppins, sans-serif;font-size: 22px;color: rgb(62,53,99);font-weight: 400;">
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <br></p>
-                </div>
-                <div class="col-xl-5" style="margin-top: 15px;"><img src="assets/img/Group%2018.png" style="max-width: 100%;padding: 35px;"></div>
+              <div class="col">
+                <p
+                  class="text-center d-xl-flex"
+                  style="
+                    font-family: Poppins, sans-serif;
+                    font-weight: 400;
+                    color: #3e3563;
+                    margin-top: 0px;
+                  "
+                >
+                  Learn directly from the professionals.<br />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-xl-3 offset-xl-1">
+            <div class="row">
+              <div class="col">
+                <img
+                  src="assets/img/Group%2022.png"
+                  style="
+                    max-width: 100%;
+                    padding-top: 12px;
+                    padding-bottom: 7px;
+                  "
+                />
+              </div>
+            </div>
+            <div class="row" style="margin-top: 12px;">
+              <div class="col">
+                <h4
+                  class="text-center"
+                  style="color: #3e3563; font-family: Poppins, sans-serif;"
+                >
+                  Connect
+                </h4>
+              </div>
             </div>
             <div class="row">
-                <div class="col-xl-5" style="margin-top: 15px;"><img src="assets/img/Group%2019.png" style="max-width: 100%;padding: 35px;"></div>
-                <div class="col d-xl-flex align-items-xl-center" style="color: #3e3563;">
-                    <p class="text-justify" style="font-family: Poppins, sans-serif;font-size: 22px;color: rgb(62,53,99);font-weight: 400;">
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br></p>
-                </div>
-            </div><br><br>
+              <div class="col">
+                <p
+                  class="text-center d-xl-flex align-items-xl-start"
+                  style="
+                    color: #3e3563;
+                    font-family: Poppins, sans-serif;
+                    font-weight: 400;
+                    margin-top: 0px;
+                  "
+                >
+                  Lorem ipsum dolor sit amet, consectetur.<br />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-xl-3 offset-xl-1">
+            <div class="row">
+              <div class="col" style="padding-left: 0px; padding-right: 0px;">
+                <img
+                  src="assets/img/Group%2023.png"
+                  style="
+                    max-width: 100%;
+                    padding-top: 20px;
+                    padding-bottom: 35px;
+                  "
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col" style="margin-top: 12px;">
+                <h4
+                  class="text-center"
+                  style="color: #3e3563; font-family: Poppins, sans-serif;"
+                >
+                  Build
+                </h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p
+                  class="text-center d-xl-flex align-items-xl-start"
+                  style="
+                    color: #3e3563;
+                    font-family: Poppins, sans-serif;
+                    font-weight: 400;
+                    margin-top: 0px;
+                  "
+                >
+                  Lorem ipsum dolor sit amet, consectetur.<br />
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+        <br /><br />
+      </div>
+    </section> -->
+    <section style="background-color: #ffffff; padding-top: 60px;" id="what">
+      <div class="container overlay2">
+        <h2
+          class="text-center"
+          style="
+            font-family: Poppins, sans-serif;
+            font-size: 35px;
+            color: #3e3563;
+            margin-bottom: 30px;
+            font-weight: 600;
+            font-style: normal;
+          "
+        >
+          What is Dev &amp; Beyond ?<br />
+        </h2>
+
+        <hr style="width: 400px;" />
+
+        <div class="row">
+          <div class="col-xl-5" style="margin-top: 15px;">
+            <img
+              src="assets/img/Group%2020.png"
+              style="max-width: 100%; padding: 35px;"
+            />
+          </div>
+
+          <div
+            class="col d-xl-flex align-items-xl-center"
+            style="color: #3e3563;"
+          >
+            <p
+              class="text-justify"
+              style="
+                font-family: Poppins, sans-serif;
+                font-size: 22px;
+                color: rgb(62, 53, 99);
+                font-weight: 400;
+              "
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, <br />
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col d-xl-flex align-items-xl-center"
+            style="color: #3e3563;"
+          >
+            <p
+              class="text-justify"
+              style="
+                font-family: Poppins, sans-serif;
+                font-size: 22px;
+                color: rgb(62, 53, 99);
+                font-weight: 400;
+              "
+            >
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse <br />
+            </p>
+          </div>
+          <div class="col-xl-5" style="margin-top: 15px;">
+            <img
+              src="assets/img/Group%2018.png"
+              style="max-width: 100%; padding: 35px;"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-5" style="margin-top: 15px;">
+            <img
+              src="assets/img/Group%2019.png"
+              style="max-width: 100%; padding: 35px;"
+            />
+          </div>
+
+          <div
+            class="col d-xl-flex align-items-xl-center"
+            style="color: #3e3563;"
+          >
+            <p
+              class="text-justify"
+              style="
+                font-family: Poppins, sans-serif;
+                font-size: 22px;
+                color: rgb(62, 53, 99);
+                font-weight: 400;
+              "
+            >
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.<br />
+            </p>
+          </div>
+        </div>
+        <br /><br />
+      </div>
     </section>
     <section style="padding-top: 60px;" id="schedule">
-        <div class="container">
-            <h2 class="text-center" style="font-family: Poppins, sans-serif;font-size: 35px;color: #3e3563;margin-bottom: 30px;font-weight: 600;font-style: normal;">
-                Schedule<br></h2>
-            <hr style="width: 165px;">
+      <div class="container">
+        <h2
+          class="text-center"
+          style="
+            font-family: Poppins, sans-serif;
+            font-size: 35px;
+            color: #3e3563;
+            margin-bottom: 30px;
+            font-weight: 600;
+            font-style: normal;
+          "
+        >
+          Schedule<br />
+        </h2>
 
-            <div class="d-xl-flex justify-content-xl-center" style="padding: 35px;"><button class="btn btn-primary" type="button" style="box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);border-radius: 39.2412px 1px;font-size: 25px;font-weight: 600;font-family: Poppins, sans-serif;width: 400px;height: 78px;">Season
-                    1</button></div>
-            <div style="margin-bottom: 90px;"><button class="sch-btn" type="button">30</button><button class="sch-btn" type="button">06</button><button class="sch-btn" type="button">13</button><button class="sch-btn" type="button">20</button><button class="sch-btn" type="button">27</button></div>
+        <hr style="width: 165px;" />
+
+        <div class="d-xl-flex justify-content-xl-center" style="padding: 35px;">
+          <button
+            class="btn btn-primary"
+            type="button"
+            style="
+              box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+              border-radius: 39.2412px 1px;
+              font-size: 25px;
+              font-weight: 600;
+              font-family: Poppins, sans-serif;
+              width: 400px;
+              height: 78px;
+            "
+          >
+            Season 1
+          </button>
         </div>
+        <div style="margin-bottom: 90px;">
+          <button class="sch-btn" type="button">30</button
+          ><button class="sch-btn" type="button">06</button
+          ><button class="sch-btn" type="button">13</button
+          ><button class="sch-btn" type="button">20</button
+          ><button class="sch-btn" type="button">27</button>
+        </div>
+      </div>
     </section>
 
     <section>
-
-        <!-- Swiper -->
-        <div class=" swiper-container ">
-            <div class="swiper-wrapper ">
-                <img class="swiper-slide img-thumbnail " src="schedule.png">
-                <img src="schedule.png" class="swiper-slide img-thumbnail ">
-                <img class="swiper-slide img-thumbnail " src="schedule.png">
-                <img class="swiper-slide img-thumbnail " src="schedule.png">
-                <img class="swiper-slide img-thumbnail " src="schedule.png ">
-
-
-            </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination "></div>
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <img class="swiper-slide img-thumbnail" src="schedule.png" />
+          <img src="schedule.png" class="swiper-slide img-thumbnail" />
+          <img class="swiper-slide img-thumbnail" src="schedule.png" />
+          <img class="swiper-slide img-thumbnail" src="schedule.png" />
+          <img class="swiper-slide img-thumbnail" src="schedule.png " />
         </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
 
-        <!-- Swiper JS -->
-        <script src="https://unpkg.com/swiper/js/swiper.min.js "></script>
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/js/swiper.min.js "></script>
 
-        <!-- Initialize Swiper -->
-        <script>
-            var swiper = new Swiper('.swiper-container', {
-                effect: 'coverflow',
-                grabCursor: true,
-                centeredSlides: true,
-                slidesPerView: 'auto',
-                coverflowEffect: {
-                    rotate: 50,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 1,
-                    slideShadows: true,
-                },
-                pagination: {
-                    el: '.swiper-pagination',
-                },
-            });
-        </script>
-
-
-
-
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".swiper-container", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
     </section>
 
     <footer id="footerpad" style="background-color: #3e3563;" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-8 mx-auto">
-                    <ul class="list-inline text-center">
-                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i
-                                        class="fa fa-circle fa-stack-2x"></i><i
-                                        class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
-                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i
-                                        class="fa fa-circle fa-stack-2x"></i><i
-                                        class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
-                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i
-                                        class="fa fa-circle fa-stack-2x"></i><i
-                                        class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
-                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i
-                                        class="fa fa-circle fa-stack-2x"></i><i
-                                        class="fa fa-pinterest fa-stack-1x fa-inverse"></i></span></a></li>
-                    </ul>
-                    <p class="copyright text-muted text-center" stlye="color: #fbf0dc;">Copyright &copy; Microsoft Reactor 2020</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-8 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#"
+                  ><span class="fa-stack fa-lg"
+                    ><i class="fa fa-circle fa-stack-2x"></i
+                    ><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"
+                  ><span class="fa-stack fa-lg"
+                    ><i class="fa fa-circle fa-stack-2x"></i
+                    ><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"
+                  ><span class="fa-stack fa-lg"
+                    ><i class="fa fa-circle fa-stack-2x"></i
+                    ><i
+                      class="fa fa-instagram fa-stack-1x fa-inverse"
+                    ></i></span
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"
+                  ><span class="fa-stack fa-lg"
+                    ><i class="fa fa-circle fa-stack-2x"></i
+                    ><i
+                      class="fa fa-pinterest fa-stack-1x fa-inverse"
+                    ></i></span
+                ></a>
+              </li>
+            </ul>
+            <p class="copyright text-muted text-center" stlye="color: #fbf0dc;">
+              Copyright &copy; Microsoft Reactor 2020
+            </p>
+          </div>
         </div>
+      </div>
     </footer>
 
-
-    <script src="tapanshu.js"></script>
+    <script src="assets/js/tapanshu.js"></script>
     <script src="assets/js/jquery.min.js"></script>
 
     <script src="assets/js/clean-blog.js"></script>
-
-
-</body>
-
+  </body>
 </html>
