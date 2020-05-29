@@ -133,6 +133,17 @@ body {
     padding: 0;
 }
 
+.crt-post{
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 30px !important;
+    border-color: #ffffff00 !important;
+}
+
+.feeder{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
 .swiper-container {
     width: 80%;
     /* min-width: 80px; */
