@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
+    <link rel="stylesheet" href="addition.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -179,6 +180,51 @@
         </div>
     </section>
 
+    <section>
+
+        <!-- Swiper -->
+        <div class=" swiper-container ">
+            <div class="swiper-wrapper ">
+                <img class="swiper-slide img-thumbnail " src="schedule.png">
+                <img src="schedule.png" class="swiper-slide img-thumbnail ">
+                <img class="swiper-slide img-thumbnail " src="schedule.png">
+                <img class="swiper-slide img-thumbnail " src="schedule.png">
+                <img class="swiper-slide img-thumbnail " src="schedule.png ">
+
+
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination "></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/js/swiper.min.js "></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+            });
+        </script>
+
+
+
+
+    </section>
+
     <footer id="footerpad" style="background-color: #3e3563;" id="about">
         <div class="container">
             <div class="row">
@@ -204,9 +250,9 @@
     </footer>
 
 
-
+    <script src="tapanshu.js"></script>
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
     <script src="assets/js/clean-blog.js"></script>
 
 
