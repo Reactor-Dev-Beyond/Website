@@ -14,7 +14,7 @@ for (let i = 0; i < button.length; i++) {
     button[i].addEventListener("click", () => {
             swipper.style.transition = "transform 0.5s ease-in-out";
 
-            swipper.style.transform = 'translate3d(' + (-size * i ) + 'px,' + 0 + 'px,' + 0 + 'px)';
+            swipper.style.transform = 'translate3d(' + (-size * i *0.6 ) + 'px,' + 0 + 'px,' + 0 + 'px)';
             image[i].style.transform = 'rotateX(' + 0 + 'deg)' + 'rotateY(' + 0 + 'deg)';
             image[i].style.transform = "z-index :" + 1;
 
