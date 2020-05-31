@@ -67,8 +67,7 @@ header.masthead .overlay {
     border: 1px solid #ff5353;
 }
 
-.accordion .content {
-    opacity: 0;
+.accordion .contents {
     padding: 0 1rem;
     max-height: 0;
     border-bottom: 1px solid #e5e5e5;
@@ -79,9 +78,18 @@ header.masthead .overlay {
     transition: all 0.2s ease 0.15s;
 }
 
-.accordion .content p {
+.accordion .contents p {
     font-size: 1rem;
     font-weight: 300;
+}
+
+.inside {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 1rem;
+    border-bottom: 1px solid #e5e5e5;
+    color: #3e3563;
+    display: none;
 }
 
 .accordion .content.active {
@@ -309,10 +317,4 @@ element.style {
     left: 0;
     bottom: 0;
     right: 0;
-}
-
-.foottext {
-    font-weight: 600;
-    font-size: 16px;
-    color: #f06955;
 }
