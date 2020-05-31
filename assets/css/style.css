@@ -1,3 +1,4 @@
+
 header.masthead .overlay {
     position: absolute;
     top: 0;
@@ -21,7 +22,7 @@ header.masthead .overlay {
     flex-direction: column;
     width: 100%;
     padding: 1rem 3rem 1rem 1rem;
-    color: #7288a2;
+    color: #3e3563;
     font-size: 1.15rem;
     font-weight: 400;
     border-bottom: 1px solid #e5e5e5;
@@ -30,47 +31,47 @@ header.masthead .overlay {
 .accordion a:hover,
 .accordion a:hover::after {
     cursor: pointer;
-    color: #ff5353;
+    color: #f06955;
 }
 
 .accordion a:hover::after {
-    border: 1px solid #ff5353;
+    border: 1px solid #f06955;
 }
 
 .accordion a.active {
-    color: #ff5353;
-    border-bottom: 1px solid #ff5353;
+    color: #f06955;
+    border-bottom: 1px solid #f06955;
 }
 
 .accordion a::after {
     font-family: 'Ionicons';
-    content: '\f218';
+    content: '\f3d0';
     position: absolute;
     float: right;
     right: 1rem;
     font-size: 1rem;
-    color: #7288a2;
+    color: #3e3563;
     padding: 5px;
     width: 30px;
     height: 30px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    border: 1px solid #7288a2;
+    border: 1px solid #3e3563;
     text-align: center;
 }
 
 .accordion a.active::after {
     font-family: 'Ionicons';
-    content: '\f209';
-    color: #ff5353;
-    border: 1px solid #ff5353;
+    content: '\f3d8';
+    color: #f06955;
+    border: 1px solid #f06955;
 }
 
 .accordion .contents {
     padding: 0 1rem;
     max-height: 0;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #3e3563;
     overflow: hidden;
     clear: both;
     -webkit-transition: all 0.2s ease 0.15s;
