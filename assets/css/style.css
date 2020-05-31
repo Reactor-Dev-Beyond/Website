@@ -310,3 +310,9 @@ element.style {
     bottom: 0;
     right: 0;
 }
+
+.foottext {
+    font-weight: 600;
+    font-size: 16px;
+    color: #f06955;
+}
