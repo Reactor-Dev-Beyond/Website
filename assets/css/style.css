@@ -133,13 +133,13 @@ body {
     padding: 0;
 }
 
-.crt-post{
+.crt-post {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1) !important;
     border-radius: 30px !important;
     border-color: #ffffff00 !important;
 }
 
-.feeder{
+.feeder {
     padding-top: 30px;
     padding-left: 8%;
     padding-right: 8%;
@@ -199,9 +199,10 @@ element.style {
     /* For mobile phones: */
 }
 
+
 /* These are the CSS files for the card */
 
-.event-card{
+.event-card {
     margin-left: auto;
     margin-right: auto;
     width: 55%;
@@ -212,11 +213,10 @@ element.style {
     border: 3px solid rgba(62, 53, 99, 0.5);
     box-sizing: border-box;
     border-radius: 50px;
-    
     /* position: relative; */
 }
 
-.card-content{
+.card-content {
     /* position: absolute; */
     padding: 50px;
     max-width: 100%;
