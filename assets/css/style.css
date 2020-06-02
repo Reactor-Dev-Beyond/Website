@@ -155,7 +155,7 @@ button.btn.btn-primary {
 
 @media all and (max-width:400px) {
     button.btn.btn-primary {
-        margin-left: -30px;
+        margin-left: 10px;
     }
 }
 
@@ -174,8 +174,11 @@ div.col.d-xl-flex p {
         font-size: 15px;
         color: rgb(62, 53, 99);
         font-weight: 400;
-        margin: 0;
-        margin-left: 5px;
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
     }
 }
 
@@ -446,6 +449,18 @@ element.style {
     left: 0;
     bottom: 0;
     right: 0;
+}
+
+@media all and (max-width:400px) {
+    .card-content {
+        /* position: absolute; */
+        padding: 10px;
+        max-width: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
 }
 
 .foottext {
