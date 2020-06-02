@@ -3,17 +3,24 @@ let link = document.querySelectorAll('.accordion a');
 
 for (let i = 0; i < para.length; i++) {
 
-    link[i].addEventListener("click", () => {
-
-        if (para[i].style.display === "none") {
-
-            para[i].style.display = "block";
-        } else {
-
-            para[i].style.display = "none";
-        }
+    link[i].addEventListener("mouseover", () => { setTimeout(myFuncs, 1000) });
 
 
 
-    });
+    link[i].addEventListener("mouseout", function() { setTimeout(myFunc, 0) });
+
+    function myFuncs() {
+        para[i].style.display = "block";
+
+
+    }
+
+
+    function myFunc() {
+
+
+        para[i].style.display = "none";
+
+    }
+
 }
