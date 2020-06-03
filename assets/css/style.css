@@ -171,7 +171,7 @@ button.btn.btn-primary {
 
 div.col.d-xl-flex p {
     font-family: Poppins, sans-serif;
-    font-size: 50px;
+    font-size: 25px;
     padding-top: 40px;
     color: rgb(62, 53, 99);
     font-weight: 400;
@@ -182,7 +182,7 @@ div.col.d-xl-flex p {
 @media all and (max-width:400px) {
     div.col.d-xl-flex p {
         font-family: Poppins, sans-serif;
-        font-size: 26px;
+        font-size: 13px;
         padding-top: 25px;
         color: rgb(62, 53, 99);
         font-weight: 400;
