@@ -1616,15 +1616,34 @@ button.swiper-pagination-bullet {
         margin-top: 20px;
     }
     
+    .side img {
+        display: none;
+    }
+
     .h5 {
         margin-top: 10px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .swiper-wrapper {
-        width: 100%;
+        width: 74%;
         height: 100%;
         margin-bottom: 0px;
+    }
+
+    .register-btn {
+        padding-top: 30px;
+        
+    }
+    
+    .register-btn .btn {
+        font-size: 18px;
+        width: 20%;
+        min-width: 200px;
+    }
+
+    .event-detail {
+        font-size: 18px;
     }
 
     /*********************
