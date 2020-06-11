@@ -1,3 +1,13 @@
+const items = document.querySelectorAll(".accordion a");
+let para = document.querySelectorAll('.inside');
+let link = document.querySelectorAll('.accordion a');
+const button = document.querySelectorAll(".sch-btn");
+let i = 0;
+const swipper = document.querySelector(".swiper-wrapper")
+const image = document.querySelectorAll(".swiper-slide");
+const size = image[i].clientWidth;
+let move = 0;
+
 $(document).ready(function() {
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {
@@ -23,10 +33,6 @@ $(document).ready(function() {
     });
 });
 
-const items = document.querySelectorAll(".accordion a");
-let para = document.querySelectorAll('.inside');
-let link = document.querySelectorAll('.accordion a');
-
 for (let i = 0; i < para.length; i++) {
 
     items[i].addEventListener("click", () => {
@@ -48,19 +54,6 @@ function toggleAccordion() {
     this.classList.toggle('active');
     this.nextElementSibling.classList.toggle('active');
 }
-
-//items.forEach(item => item.addEventListener('click', toggleAccordion));
-
-const button = document.querySelectorAll(".sch-btn");
-let i = 0;
-const swipper = document.querySelector(".swiper-wrapper")
-const image = document.querySelectorAll(".swiper-slide");
-//let's do this!!
-const size = image[i].clientWidth;
-console.log(size);
-console.log(image.length);
-
-let move = 0;
 
 for (let i = 0; i < button.length; i++) {
 
