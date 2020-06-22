@@ -859,6 +859,10 @@ button.swiper-pagination-bullet {
     padding-right: 8%;
 }
 
+.Feedsec {
+    padding-top: 45px;
+}
+
 .swiper-container {
     width: 80%;
     /* min-width: 80px; */
