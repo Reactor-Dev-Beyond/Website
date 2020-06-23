@@ -294,6 +294,14 @@ header.masthead .overlay {
     ;
 }
 
+@media all and (max-width: 576px) {
+    .swiper-wrapper {
+        width: 74%;
+        height: 100%;
+        margin-bottom: 45px;
+    }
+}
+
 .swiper-container-android .swiper-slide,
 .swiper-wrapper {
     transform: translate3d(0px, 0, 0);
@@ -1524,6 +1532,11 @@ button.swiper-pagination-bullet {
         width: 74%;
         height: 100%;
         margin-bottom: 0px;
+    }
+    @media all and (max-width: 600px) {
+        .swiper-wrapper {
+            margin-bottom: 45px;
+        }
     }
     .register-btn {
         padding-top: 30px;
